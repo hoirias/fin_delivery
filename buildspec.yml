@@ -44,7 +44,7 @@ phases:
           apiVersion: v1
           kind: Service
           metadata:
-            name: $IMAGE_REPO_NAM
+            name: $_PROJECT_NAME
             namespace: hoirias
             labels:
               app: $IMAGE_REPO_NAME
